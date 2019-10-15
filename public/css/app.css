@@ -1,0 +1,30 @@
+.content {
+  padding-top: 90px;
+}
+
+.index {
+  text-align: center;
+}
+
+.index p {
+  padding-top: 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.service h1 {
+  text-align: center;
+}
+
+.service ul {
+  padding-top: 30px;
+}
+
+.about {
+  text-align: center;
+}
+
+.login {
+  margin-top: 30px;
+}
+
