@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    
-   <div class="index jumbotron">
+
+<div class="container-fluid">
+   <div class=" index jumbotron">
         <h1>{{$title}}</h1>
         <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             Ipsum rerum sint deleniti nesciunt harum dolores
@@ -12,5 +13,5 @@
             </div>
         </p>
    </div>
-
+</div>
 @endsection

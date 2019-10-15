@@ -2,14 +2,13 @@
 
 @section('content')
 
-        <div class="service">
+        <div class="container-fluid service">
                  <h1>{{$title}}</h1>
-                 <ul>
+                 <ul class="list-group">
                          @foreach ($services as $service)
-                                 <li>{{$service}}</li>
+                                 <li class="list-group-item">{{$service}}</li>
                          @endforeach
                  </ul>
-                 <p>This is the services page </p>
         </div>
 
 @endsection
